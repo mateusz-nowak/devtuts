@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Developer tutorials - PHP, MySQL, Javascript, Node.js, Symfony2 - devtuts.pl</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/Blog/stylesheets/base.css" />
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <section class="container">
+        <header class="container-header">
+            <a href="btn">devtuts.pl</a>
+        </header>
+        <section class="container-context">
+            <section class="context-sidebar">
+                sidebar
+            </section>
+            <section class="context-body">
+                {% block body %}{% endblock %}
+            </section>
+        </section>
+    </section>
+</body>
+</html>

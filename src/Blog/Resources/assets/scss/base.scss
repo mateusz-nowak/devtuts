@@ -1,0 +1,18 @@
+@import '_vars', 'bootstrap';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    .container-context {
+        @extend .row;
+        .context-sidebar {
+            @extend .col-md-4;
+        }
+        .context-body {
+            @extend .col-md-8;
+        }
+    }
+}
