@@ -9,10 +9,13 @@ body {
     .container-context {
         @extend .row;
         .context-sidebar {
-            @extend .col-md-4;
+            @extend .col-md-2;
         }
         .context-body {
-            @extend .col-md-8;
+            @extend .col-md-10;
         }
+    }
+    .container-header {
+        margin: 10px 0 20px;
     }
 }
